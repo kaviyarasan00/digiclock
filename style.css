@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css');
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display:grid;
+    place-items: center;
+    background-color: black;
+}
+.clock{
+
+      text-align: center;
+
+}
+.clock .display{
+    font-size: 30px;
+    color: rgb(206, 179, 105);
+    letter-spacing: 3px;
+    
+    font-family: system-ui;
+}
